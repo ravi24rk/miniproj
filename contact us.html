@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact us</title>
+        <!--Including the CSS file-->
+        <link rel="stylesheet" href="sidebar\css\ScrollSpy.min.css">
+        <!--Including the CSS file-->
+
+        <link rel="stylesheet" href="sidebar\css\styles.css">
+        <link rel="stylesheet" href="css\style.css">
+
+        <script src="sidebar\js\highlight.pack.js"></script>
+        <!--HighlightJS Syntax Highlighter-->
+      <link rel = "icon"  href ="images\aboutimg.png" type = "image/x-icon"> 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    </head>
+
+    <body>
+<div class="line"> </div>
+<img src="images/logo11.jpg" id="img1" alt="Bootstrappin'"> 
+<img src="images/logo21.jpg" id="img3" alt="Bootstrappin'">
+<img src="images/banner1.jpg"  id="img2" alt="Bootstrappin'">  <br>
+
+
+    <nav id="main-nav">
+      <!-- Sample menu definition -->
+      <ul id="main-menu" class="sm sm-blue">
+        <li><a href="home.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+<li><a href="#0"><i class="fa fa-university" aria-hidden="true"></i> Administration</a>
+          <ul class="scroll"  id="style-2">
+            <li><a href="office bearers.html"  target="_blank">Office Bearers</a></li>
+
+            <li><a href="principal.html" target="_blank">Principal</a></li>
+
+            <li><a href="rules&regulation.html" target="_blank">Rules& Regulations</a></li>
+			
+
+          </ul>
+        </li>
+
+<li><a href="#0"><i class="fa fa-dropbox" aria-hidden="true"></i> Facilities</a>
+          <ul class="scroll"  id="style-2">
+           
+<li><a href="mineral water.html" target="_blank">Mineral Water Plant</a></li>
+<li><a href="power house.html" target="_blank">Generation &Power House</a></li>
+<li><a href="Gym.html" target="_blank">Gym</a></li>
+<li><a href="mess.html" target="_blank">mess</a></li>
+
+          </ul>
+        </li>
+
+ 
+        <li><a href="gallery.html" target="_blank"><i class="fa fa-calendar" aria-hidden="true"></i> Gallery</a></li>
+        
+        <li><a href="alumni.html" target="_blank"><i class="fa fa-handshake-o" aria-hidden="true"></i> Alumni</a></li>
+		<li><a href="hostel/registration.php" target="_blank"><i class="fa fa-handshake-o" aria-hidden="true"></i>Hostel Management</a></li>
+		
+        
+  
+      </ul>
+    </nav>
+
+
+ <section>
+	<div class="content"><br><br>
+		<h1>Government College Of Engineering, Bodinayakannur 625582</h1><br>
+		<h3>Contact Numbers</h3><br><br>
+            <p><b>Phone :</b>(04546) 282555 </p><br>
+            <p><b>Hostel :</b> (04546) 282555</p><br>
+            <p><b>TeleFax :</b> (04546) 285000</p><br>
+            <h3>E-Mail address</h3><br><br>
+            <p><b>E-Mail address :</b> gcebodi@gmail.com </p><br>
+            
+	</section>
+
+
+
+      
+        <footer>
+
+	<a href="home.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+	<a href="About us.html"><i class="fa fa-question-circle" aria-hidden="true"></i> About Us</a>
+	<a href="Contact us.html"><i class="fa fa-phone" aria-hidden="true"></i> Contact us</a>
+	<li><a href="php/admin.php" target="blank" >Admin-Login</a></li>
+
+        </footer>
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+    <!-- SmartMenus jQuery plugin -->
+    <script type="text/javascript" src="js/jquery.smartmenus.js"></script>
+
+    <!-- SmartMenus jQuery init -->
+    <script type="text/javascript">
+    	$(function() {
+    		$('#main-menu').smartmenus({
+    			subMenusSubOffsetX: 1,
+    			subMenusSubOffsetY: -8
+    		});
+    	});
+    </script>
+
+
+        <!--Including the JS file-->
+        <script src="sidebar\js\ScrollSpy.min.js"></script>
+        <!--Including the JS file-->
+
+        <script>
+            // Initializing the ScrollSpy to the elements with class of 'scrollspy'
+            var spy = new ScrollSpy({
+                contexts_class: 'scrollspy'
+            });
+
+            // Initializing the Indicator inside the element with ID of 'scrollspy-indicator'
+            spy.Indicator({
+                element: document.getElementById('scrollspy-indicator'),
+            });
+        </script>
+
+
+        <script>
+
+            // Styling the indicator to be at center of the page vertically
+            var indicator = document.getElementById('scrollspy-indicator');
+            indicator.style.top = 'calc(50vh - ' + (indicator.offsetHeight / 2) + 'px)';
+
+        </script>
+
+        <script>hljs.initHighlightingOnLoad();</script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+duration:3000
+});
+</script>
+
+    </body>
+</html>
